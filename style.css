@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;  /* ou une Google Font */
+  background-color: #f0f4f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+main {
+  max-width: 500px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1D9E75;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #1D9E75;  /* couleur principale */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;   /* montre la main au survol */
+}
+
+button:hover {
+  background-color: #0F6E56;  /* légèrement plus foncé au survol */
+}
+
+#result {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f0f4f0;
+  border-radius: 6px;
+  min-height: 60px;
+  text-align: center;
+  font-size: 1.1rem;
+}
